@@ -1,4 +1,4 @@
-name: Run CF Changle
+name: Run CF AIO
 
 on:
   workflow_dispatch:
