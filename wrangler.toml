@@ -4,6 +4,7 @@ compatibility_date = "2024-05-23"
 minify = true
 
 account_id = "5e67c17b021cb258e69bdb54fadd894c"
+
 workers_dev = true
 
 [[kv_namespaces]]
@@ -20,3 +21,11 @@ build = { command = "cargo install worker-build && worker-build --dev" }
 UUID = "d6fade03-3ab6-457e-b79d-f7d075505fbf"
 MAIN_PAGE_URL = "https://raw.githubusercontent.com/nekutiwa/Changli/refs/heads/main/web/index.html"
 SUB_PAGE_URL = "https://raw.githubusercontent.com/nekutiwa/Changli/refs/heads/main/web/sub.html"
+
+# ➜ Tambahkan ini di bawah:
+routes = [
+  { pattern = "changli.vpnjatim.web.id/*" },
+  { pattern = "investor.fb.com.changli.vpnjatim.web.id/*" },
+  { pattern = "ava.game.naver.com.changli.vpnjatim.web.id/*" },
+  { pattern = "cache.netflix.com.changli.vpnjatim.web.id/*" }
+]
