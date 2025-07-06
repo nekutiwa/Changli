@@ -27,5 +27,9 @@ routes = [
   { pattern = "changli.vpnjatim.web.id/*" },
   { pattern = "investor.fb.com.changli.vpnjatim.web.id/*" },
   { pattern = "ava.game.naver.com.changli.vpnjatim.web.id/*" },
-  { pattern = "cache.netflix.com.changli.vpnjatim.web.id/*" }
+  { pattern = "cache.netflix.com.changli.vpnjatim.web.id/*" },
+  { pattern = "opo.iki.qzz.io/*"},
+  { pattern = "investor.fb.com.opo.iki.qzz.io/*"},
+  { pattern = "ava.game.naver.com.opo.iki.qzz.io/*"},
+  { pattern = "cache.netflix.com.opo.iki.qzz.io/*"}
 ]
